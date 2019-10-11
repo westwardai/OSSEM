@@ -24,7 +24,7 @@ eventData:
   ProcessGuid:
     type: string
     description: Process Guid of the process that got spawned/created (child)
-    sample: {A98268C1-4BF5-5D00-0000-00102A7B2B00}</Data> 
+    sample: {A98268C1-4BF5-5D00-0000-00102A7B2B00} 
   ProcessId:
     type: string
     description: Process ID used by the os to identify the created process (child)
@@ -56,7 +56,7 @@ eventData:
   CommandLine:
     type: string
     description: Arguments which were passed to the executable associated with the main process
-    sample: "C:\WINDOWS\system32\wuauclt.exe" /RunHandlerComServer
+    sample: C:\WINDOWS\system32\wuauclt.exe /RunHandlerComServer
   CurrentDirectory:
     type: string
     description: The path without the name of the image associated with the process
