@@ -56,10 +56,11 @@ The project is currently in an alpha stage, which means that the content is stil
 
 * Roberto Rodriguez [@Cyb3rWard0g](https://twitter.com/Cyb3rWard0g)
 
-# Contributors
+# Current Committers
 
 * Jose Luis Rodriguez [@Cyb3rPandaH](https://twitter.com/Cyb3rPandaH)
-* Jared Atkinson [@jaredcatkinson](https://twitter.com/jaredcatkinson)
+* Nate Guagenti [@neu5ron](https://twitter.com/neu5ron)
+* Fred Frey [@FryGuy2600](https://twitter.com/FryGuy2600)
 
 # Contributing
 
