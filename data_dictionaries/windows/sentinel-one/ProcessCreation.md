@@ -179,3 +179,6 @@ date: 10/24/2019
 | process_command_line | processCreation.process.executable.commandLine | string | Arguments which were passed to the executable associated with the main process | C:\Windows\sysWOW64\wbem\wmiprvse.exe -secured -Embedding |
 | process_id | processCreation.process.fullPid.pid | integer | Process ID used by the os to identify the created process (child) | 5956 |
 | process_parent_id | processCreation.parent.fullPid.pid | integer | Process ID of the process that spawned/created the main process (child) | 0 |
+| user_name | processCreation.process.user.name | string | Name of the account who created the process (child) . It usually contains domain name and user name (Parsed to show only username without the domain) | NT AUTHORITY\NETWORK SERVICE |
+| hash | processCreation.hashes | string | Hashes captured by Sentinel One | md5=de1934bdb5b8e10b2f3574c3ccd35bb4,sha1=36eb5db4c3ca78596f3e08158d54392cf3d43739,sha256=b13697c44f1939cb00ea58a65e2460d4be5637704a6dd14c6746709e448a8cc5 |
+
