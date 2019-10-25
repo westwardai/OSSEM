@@ -174,4 +174,8 @@ date: 10/24/2019
 ## Data Dictionary
 |	Standard Name	|	Field Name	|	Type	|	Description	|	Sample Value	|
 |	-------------	|	----------	|	----	|	-----------	|	------------	|
+| process_name | processCreation.process.executable.path | string | he name of the executable without full path related to the process being spawned/created in the event. Considered also the child or source process | wmiprvse.exe |
+| process_path | processCreation.process.executable.path | string | The name of the executable without full path related to the process being spawned/created in the event. Considered also the child or source process | C:\Windows\SysWOW64\wbem\WmiPrvSE.exe |
+| process_command_line | processCreation.process.executable.commandLine | string | Arguments which were passed to the executable associated with the main process | C:\Windows\sysWOW64\wbem\wmiprvse.exe -secured -Embedding |
+| process_id | processCreation.process.fullPid.pid | integer | Process ID used by the os to identify the created process (child) | 5956 |
 | process_parent_id | processCreation.parent.fullPid.pid | integer | Process ID of the process that spawned/created the main process (child) | 0 |
