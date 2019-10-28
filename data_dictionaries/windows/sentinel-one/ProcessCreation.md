@@ -182,4 +182,3 @@ date: 10/24/2019
 | user_name | processCreation.process.user.name | string | Name of the account who created the process (child) . It usually contains domain name and user name (Parsed to show only username without the domain) | NT AUTHORITY\NETWORK SERVICE |
 | hash | processCreation.hashes | string | Hashes captured by Sentinel One | md5=de1934bdb5b8e10b2f3574c3ccd35bb4,sha1=36eb5db4c3ca78596f3e08158d54392cf3d43739,sha256=b13697c44f1939cb00ea58a65e2460d4be5637704a6dd14c6746709e448a8cc5 |
 | event_date_creation | timestamp.millisecondsSinceEpoch | date | Time in UTC when event was created | 	4/11/18 5:25 |
-
