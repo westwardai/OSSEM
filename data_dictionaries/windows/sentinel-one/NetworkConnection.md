@@ -90,7 +90,7 @@ Sentinel One will generate an event when a process opens a TCP/UDP network conne
       "dns": null,
       "schedTaskStart": null,
       "regKeyCreate": null
-    }
+}
 ```
 
 ## Event Types:

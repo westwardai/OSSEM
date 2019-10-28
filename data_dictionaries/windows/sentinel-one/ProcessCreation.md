@@ -162,7 +162,7 @@ date: 10/24/2019
       "dns": null,
       "schedTaskStart": null,
       "regKeyCreate": null
-    }
+}
 ```
 
 ## Event Types:
