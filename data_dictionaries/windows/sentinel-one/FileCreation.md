@@ -3,7 +3,7 @@ title: Flie Created Sentinel One
 description: This event is triggered by Sentinel One when a Windows process creates a file
 log.type: sentinelone
 sentinelone.version: 1
-sentinelone.rule: FlieCreate
+sentinelone.rule: FileCreate
 author: Zack Payton (@zackpayton)
 date: 10/24/2019
 ---
