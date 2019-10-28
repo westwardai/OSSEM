@@ -8,7 +8,7 @@ author: Zack Payton (@zackpayton)
 date: 10/24/2019
 ---
 
-## Event Log Illustration & Event JSON
+## Event JSON
 
 ```
 {
@@ -168,7 +168,7 @@ date: 10/24/2019
 ## Event Types:
 |	Standard Name	|	Field Name	|	Description	|
 |	-------------	|	----------	|	----	|
-| processs_start    |   processCreation | Process was started   |
+| process_start    |   processCreation | Process was started   |
 
 
 ## Data Dictionary
